@@ -352,10 +352,12 @@
       <div class="contact-info-upper-container2">
         <div class="ContactForm">
           <p id="letstalk" class="section__text__p2">Let's Talk</p>
-         <form name="submit-to-google-sheet">
+         <form name="submit-to-google-sheet" class="formcl">
            <label>Name:<input type="text" name="Name" id="" placeholder="Your Name" required></label>
-           <label>E-mail:<input type="email" name="Email" placeholder="Your E-mail" required id="">
-           <label>Message:<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+           <label>E-mail:<input type="email" name="Email" placeholder="Your E-mail" required id=""></label>
+           <label for="subscribption" id="pclabel"><input type="checkbox" name="subscribption" id="subscribption" class="pclabel"> Do you wish to receive future updates through E-mail?</label>
+           <label id="moblabel"><input class="moblabel" type="checkbox" name="subscription" id="subscribption">Receive future updates?</label><br>
+           <label>Message:<textarea name="Message" rows="6" placeholder="Your Message"></textarea></label>
            <button type="Submit" class="btnn" id="submit-button" onclick="alert('Your message has been sent.')">Submit</button>
           </form>
          </div>
