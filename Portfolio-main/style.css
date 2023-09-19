@@ -13,7 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
+#moblabel, .moblabel {
+  display: none;
+  font-size: 15px;
+}
 /* TRANSITION */
 
 a,
@@ -510,6 +513,18 @@ article .icon {
   font-style: italic;
   font-weight: 100;
   font-size: 0.7rem;
+}
+
+.contact-info-upper-container2 input[type="email"] {
+  margin-bottom: 10px;
+}
+.formcl input[type="checkbox"] {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.formcl label:nth-of-type(3){
+  font-size: 15px;
 }
 #letstalk {
   text-align: center;

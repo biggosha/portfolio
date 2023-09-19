@@ -13,6 +13,6 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbygBjLR21YCI9wVZ60Cr6
                 .then(response => console.log('Success!', response))
                 .catch(error => console.error('Error!', error.message))
             })
-            s
+            
            
 

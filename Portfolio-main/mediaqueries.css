@@ -60,6 +60,12 @@
     display: block;
   }
 
+  #moblabel, .moblabel {
+    display: block;
+  }
+  #pclabel, .pclabel {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
